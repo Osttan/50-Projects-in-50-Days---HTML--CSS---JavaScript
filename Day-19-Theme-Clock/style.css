@@ -65,6 +65,7 @@ body {
   height: 65px;
   width: 3px;
   transform-origin: bottom center;
+  transition: all 0.5s ease-in;
 }
 
 .needle.hour {
@@ -120,8 +121,8 @@ body {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   border-radius: 50%;
-  height: 18px;
-  width: 18px;
+  height: 1.2rem;
+  width: 1.2rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
